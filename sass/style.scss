@@ -1,0 +1,35 @@
+$navcolor: #f4f4f4;
+$textcolor: #bc694e;
+
+$para1color: #4e4e4e;
+
+.titre {
+    font-family: 'Playfair Display SC';
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.titre2 {
+    @extend .titre;
+    color: #bc694e;
+}
+
+.paragraphe{
+    font-family: 'Lato';
+    color: $para1color;
+    font-weight: bold;
+}   
+
+.paragraphe2 {
+    @extend .paragraphe2
+
+}
+.parent-element {
+    position: relative;
+}
+
+.button {
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
